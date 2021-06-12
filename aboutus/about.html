@@ -6,53 +6,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About us</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css"
         integrity="sha512-Cv93isQdFwaKBV+Z4X8kaVBYWHST58Xb/jVOcV9aRsGSArZsgAnFIhMpDoMDcFNoUtday1hdjn0nGp3+KZyyFw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
-        <div id="header">
-            <div id="logo">
-                <a href="">
-                    <img src="images/Logo.png" alt="" />
-                </a>
-            </div>
-            <div id="left-menu">
-                <ul>
-                    <li><a href="#">Cards</a></li>
-                    <li><a href="#">Merchant</a></li>
-                    <li><a href="#">Find</a></li>
-                    <li><a href="#">Compare</a></li>
-                </ul>
-            </div>
-            <div id="right-menu">
-                <ul>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">FAQs</a></li>
-                    <li><a href="#"><i class="fas fa-phone-alt"></i>Call us</a></li>
-                </ul>
+        <div class="header">
+            <div class="menu">
+                <nav class="navbar navbar-expand-lg row border-bottom px-10">
+                    <div class="col-sm-1">
+                        <img class="" src="images/Logo.png" alt="" />
+                    </div>
+                    <ul class="navbar-nav mr-auto col-sm-5 ml-5">
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#">Cards</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#">Merchant</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#">Compare</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#">FAQs</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#"><i class="fas fa-phone-alt pr-1"></i>Call us</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </div>
-        <div id="header-2">
-            <div id="header-2-left">
-                About us
+        <div class="header-2 row py-2 px-10">
+            <div class="col-sm-5 h-100 my-auto" id="header-2-left">
+                <p class="d-inline align-middle">About us</p>
             </div>
-            <div id="header-2-right">
-                <button id="btn">Contact us</button>
+            <div class="col-sm-7">
+                <button id="btn" class="float-right">Contact us</button>
             </div>
         </div>
-        <div id="body-1">
-            <p id="title-1">About us</p>
-            <p id="title-2">One of Australia’s leading multi-branded fuel cards.</p>
-            <p id="content-1">Our aim is to streamline organisations’ fleet accounting and administrative processes,
+        <div class="p-5 row" id="body-1">
+            <p class="col-sm-4 offset-sm-4 text-center" id="title-1">About us</p>
+            <p class="col-sm-6 offset-sm-3 text-center" id="title-2">One of Australia’s leading multi-branded fuel
+                cards.</p>
+            <p class="col-sm-6 offset-sm-3 px-5 text-center" id="content-1">Our aim is to streamline organisations’
+                fleet accounting and administrative processes,
                 save them money
                 and make the lives of both drivers and managers easier.</p>
-            <img id="image" src="images/image.png">
-            <p id="content-2">Fleet Card is operated by Business Fuel Cards Pty Limited, a subsidiary of FLEETCOR
+            <img class="rounded mx-auto d-block" id="image" src="images/image.png">
+            <p class="col-sm-8 offset-sm-2 py-5 text-justify" id="content-2">Fleet Card is operated by Business Fuel
+                Cards Pty Limited, a subsidiary of FLEETCOR
                 Technologies Inc,
                 which is listed on the NYSE and is a leading independent provider of fleet, fuelling and specialised
                 payment solutions that keep businesses moving forward.
@@ -71,32 +88,38 @@
                 Australia. Covering a full breadth of industry sectors, including large, medium and small-sized
                 enterprises, government organisations, buying groups and trade associations, it’s our specialised
                 knowledge that enables us to develop the best fuel solutions for fleet operators.</p>
-            <div id="bussiness-card">
-                <div id="top-card">
+            <div class="col-sm-8 offset-sm-2 px-5 py-3" id="bussiness-card">
+                <div class="pt-3 border-bottom" id="top-card">
                     <p id="title-3">Business Fuel Cards PTY LTD</p>
                     <p id="content-3">Fleet Card is operated by Business Fuel Cards Pty Limited, a subsidiary of
                         FLEETCOR
                         Technologies Inc, which is listed on the NYSE and is a leading independent provider of fleet,
                         fuelling and specialised payment solutions that keep businesses moving forward.</p>
                 </div>
-                <div id="bot-card">
-                    <img id="card-img-1" src="images/Logo.png" alt="">
-                    <img id="card-img-2" src="images/image 3.png" alt="">
-                    <img id="card-img-3" src="images/fleetcor 2.1.png" alt="">
+                <div class="pt-3" id="bot-card">
+                    <img class="ml-4" id="card-img-1" src="images/Logo.png" alt="">
+                    <img class="ml-4" id="card-img-2" src="images/image 3.png" alt="">
+                    <img class="ml-4" id="card-img-3" src="images/fleetcor 2.1.png" alt="">
                 </div>
             </div>
-
         </div>
-        <div id="body-2">
-            <img id="fleet-logo" src="images/Group 67.2.png" alt="">
-            <p id="title-4">Who are FLEETCOR?</p>
-            <p id="content-4">We are leading the future of commercial payments with a culture of innovation that drives
-                us to constantly create new and better ways to pay.</p>
-            <div id="nav-tab">
-                <button class="tab-item" id="tab-mission" onclick="openItem('mission')">Mission</button>
-                <button class="tab-item" id="tab-history" onclick="openItem('history')">History</button>
+        <div class="p-5 row" id="body-2">
+            <div class="col-sm-12">
+                <img class="mx-auto d-block" id="fleet-logo" src="images/Group 67.2.png" alt="">
             </div>
-            <div id="mission" class="item">
+            <p class="col-sm-6 offset-sm-3 mt-3 text-center" id="title-4">Who are FLEETCOR?</p>
+            <p class="col-sm-8 offset-sm-2 px-5 text-center" id="content-4">We are leading the future of commercial
+                payments with a culture of innovation that
+                drives
+                us to constantly create new and better ways to pay.</p>
+
+            <div class="mx-auto justify-content-center" id="nav-tab">
+                <div class="mt-2 ml-2">
+                    <button class="btn tab-item align-middle" id="tab-mission" onclick="openItem('mission')">Mission</button>
+                <button class="btn tab-item align-middle" id="tab-history" onclick="openItem('history')">History</button>
+                </div>
+            </div>
+            <div class="col-sm-8 mx-auto mt-3 item" id="mission">
                 <p>FLEETCOR (NYSE: FLT) is a leading independent global provider of specialised payment products and
                     services, including fleet cards, food cards, corporate lodging discount cards and other specialised
                     payment services for businesses throughout the world. FLEETCOR serves over 500,000 commercial
@@ -118,125 +141,157 @@
                     supplier.</p>
             </div>
 
-            <div id="history" class="item" style="display:none">
+            <div class="col-sm-8 mx-auto mt-3 item" id="history" style="display:none">
                 <h2>History</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam dicta ab quisquam autem libero
-                    possimus recusandae itaque quis, molestiae consequatur fugit voluptatem sint tempora? Omnis mollitia
-                    optio delectus animi vel?</p>
+                <p>FLEETCOR (NYSE: FLT) is a leading independent global provider of specialised payment products and
+                    services, including fleet cards, food cards, corporate lodging discount cards and other specialised
+                    payment services for businesses throughout the world. FLEETCOR serves over 500,000 commercial
+                    accounts with millions of cardholders across the United States, Canada, Mexico, Europe, Africa, Asia
+                    and Australasia.<br><br>
+
+                    FLEETCOR manages relationships with more than 800 partners, ranging in size from major oil companies
+                    to small petroleum marketers with a single fueling location and provides services from transaction
+                    processing to full program management. Their platforms, programs and infrastructure are both
+                    adaptable and scalable, allowing them flexibility with such versatile partners.<br><br>
+
+                    FLEETCOR has over 5,300 employees worldwide and brings in a yearly revenue of over $1.7 billion. It
+                    operates in 53 different countries around the globe, and boast an impressive 1.9 billion processed
+                    transactions in the 17 years they’ve been in operation.<br><br>
+
+                    In that time, FLEETCOR has constantly been acquiring businesses and building networks throughout the
+                    world. They’ve won a number of fleet card contracts with big-name fuel corporations, such as BP,
+                    Chevron North America and Shell Europe / Asia.</p>
             </div>
-            <p id="title-team">EXECUTIVE TEAM</p>
-            <p id="title-5">Who is behind FLETCOR?</p>
-            <p id="content-5">Fleetcor is guided by a number of competent, driven leaders from varied backgrounds. Here
+            <p class="col-sm-6 offset-sm-3 mt-5 text-center" id="title-team">EXECUTIVE TEAM</p>
+            <p class="col-sm-6 offset-sm-3 mt-1 text-center" id="title-5">Who is behind FLETCOR?</p>
+            <p class="col-sm-6 offset-sm-3 px-3 text-center" id="content-5">Fleetcor is guided by a number of competent,
+                driven leaders from varied backgrounds.
+                Here
                 is a brief look at the management team:</p>
-            <div>
-                <div class="member" id="mem1">
-                    <img src="images/image 2.1.png" class="avt">
-                    <p class="name">Ronald F. Clarke</p>
-                    <p class="pos">CEO</p>
-                    <p class="des">Mr Clarke has been with FLEETCOR since the beginning and continues to lead the
-                        organisation with finesse.</p>
+            <div class="row mt-5" id="team">
+                <div class="card col-sm-4 mx-auto">
+                    <img class="card-img-top img-fluid rounded mx-auto pt-3" src="images/image 2.1.png" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title name">Ronald F. Clarke</h5>
+                        <p class="card-text pos">CEO</p>
+                        <p class="card-text des">Mr Clarke has been with FLEETCOR since the beginning and continues to
+                            lead
+                            the
+                            organisation with finesse.</p>
+                    </div>
                 </div>
-                <div class="member" id="mem2">
-                    <img src="images/image 2.png" class="avt">
-                    <p class="name">Eric R. Dey</p>
-                    <p class="pos">CFO</p>
-                    <p class="des">Before joining FLEETCOR in 2003, Mr Dey worked as a CFO in multiple organisations,
-                        giving him the experience necessary to propel FLEETCOR forward financially.</p>
+                <div class="card col-sm-4 mx-auto">
+                    <img class="card-img-top img-fluid rounded mx-auto pt-3" src="images/image 2.png" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title name">Eric R. Dey</h5>
+                        <p class="card-text pos">CFO</p>
+                        <p class="card-text des">Before joining FLEETCOR in 2003, Mr Dey worked as a CFO in multiple
+                            organisations, giving him the experience necessary to propel FLEETCOR forward financially.
+                        </p>
+                    </div>
                 </div>
-                <div class="member" id="mem3">
-                    <img src="images/image 2.2.png" class="avt">
-                    <p class="name">Alan King</p>
-                    <p class="pos">President (UK, Australia and NZ)</p>
-                    <p class="des">With leadership experience from multiple global banks, including Citibank and
-                        MasterCard.</p>
+                <div class="card col-sm-4 mx-auto">
+                    <img class="card-img-top img-flui rounded mx-auto pt-3" src="images/image 2.2.png" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title name">Alan King</h5>
+                        <p class="card-text pos">President (UK, Australia and NZ)</p>
+                        <p class="card-text des">With leadership experience from multiple global banks, including
+                            Citibank and
+                            MasterCard.</p>
+                    </div>
                 </div>
             </div>
+
         </div>
-        <div id="footer">
-            <div id="footer-top">
-                <div id="footer-1">
-                    <img src="images/Logo.png" alt="" id="logo-ft">
+        <div class="col-sm-12 border-top" id="footer">
+            <div class="row mt-5" id="footer-top">
+                <div class="col-sm-3 pl-3" id="footer-1">
+                    <img class="d-block py-4" src="images/Logo.png" alt="" id="logo-ft">
                     <p id="copyright">©2019 Business Fuel Cards Pty Ltd<br>ABN 99 161 721 106</p>
                 </div>
-                <div id="footer-2">
-                    <div class="ft" id="ft-company">
+                <div class="col-sm-9 row ml-auto" id="footer-2">
+                    <div class="ft mx-auto" id="ft-company">
                         <h4>THE COMPANY</h4>
                         <ul class="list-unstyled">
-                            <li><a href="#" class="text-muted">About us</a></li>
-                            <li><a href="#" class="text-muted">Partners</a></li>
-                            <li><a href="#" class="text-muted">Merchants</a></li>
-                            <li><a href="#" class="text-muted">SiteMap</a></li>
+                            <li class="py-2"><a href="#" class="text-muted">About us</a></li>
+                            <li class="py-2"><a href="#" class="text-muted">Partners</a></li>
+                            <li class="py-2"><a href="#" class="text-muted">Merchants</a></li>
+                            <li class="py-2"><a href="#" class="text-muted">SiteMap</a></li>
                         </ul>
                     </div>
-                    <div class="ft" id="ft-product">
+                    <div class="ft mx-auto" id="ft-product">
                         <h4>PRODUCTS</h4>
                         <ul class="list-unstyled">
-                            <li><a href="#" class="text-muted">Fuel cards</a></li>
-                            <li><a href="#" class="text-muted">Site locator</a></li>
-                            <li><a href="#" class="text-muted">Forms</a></li>
-                            <li><a href="#" class="text-muted">Roadside assist</a></li>
+                            <li class="py-2"><a href="#" class="text-muted">Fuel cards</a></li>
+                            <li class="py-2"><a href="#" class="text-muted">Site locator</a></li>
+                            <li class="py-2"><a href="#" class="text-muted">Forms</a></li>
+                            <li class="py-2"><a href="#" class="text-muted">Roadside assist</a></li>
                         </ul>
                     </div>
-                    <div class="ft" id="ft-community">
+                    <div class="ft mx-auto" id="ft-community">
                         <h4>COMMUNITY</h4>
                         <ul class="list-unstyled">
-                            <li><a href="#" class="text-muted">Blog</a></li>
-                            <li><a href="#" class="text-muted">News</a></li>
-                            <li><a href="#" class="text-muted">Savings calculator</a></li>
-                            <li><a href="#" class="text-muted">FAQs</a></li>
+                            <li class="py-2"><a href="#" class="text-muted">Blog</a></li>
+                            <li class="py-2"><a href="#" class="text-muted">News</a></li>
+                            <li class="py-2"><a href="#" class="text-muted">Savings calculator</a></li>
+                            <li class="py-2"><a href="#" class="text-muted">FAQs</a></li>
                         </ul>
                     </div>
-                    <div class="ft" id="ft-contact">
+                    <div class="ft mx-auto" id="ft-contact">
                         <h4>CONTACT US</h4>
                         <ul class="list-unstyled">
-                            <li>Support team</li>
-                            <li><span class="flag-icon flag-icon-au"></span>1300 307 159</li>
-                            <li>Sales team</li>
-                            <li><span class="flag-icon flag-icon-au"></span>1300 881 246</li>
+                            <li class="py-2">Support team</li>
+                            <li class="py-2"><span class="flag-icon flag-icon-au"></span>1300 307 159</li>
+                            <li class="py-2">Sales team</li>
+                            <li class="py-2"><span class="flag-icon flag-icon-au"></span>1300 881 246</li>
                         </ul>
                     </div>
-                    <div class="ft" id="ft-contact">
-                        <ul class="list-unstyled">
-                            <li><button class="btn-call"><i class="fas fa-phone-alt"></i>Call</button></li>
-                            <li><button class="btn-call"><i class="fas fa-phone-alt"></i>Call</button></li>
-                            
+                    <div class="ft mx-auto" id="ft-contact">
+                        <ul class="list-unstyled my-3">
+                            <li class="py-3"><button class="btn-call"><i class="fas fa-phone-alt px-2"></i>Call</button>
+                            </li>
+                            <li class="py-3"><button class="btn-call"><i class="fas fa-phone-alt px-2"></i>Call</button>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div id="footer-bot">
+            <div class="border-top" id="footer-bot">
                 <div id="footer-3">
-                    <div id="social">
-                        <a href="#"><i class="fab fa-facebook-square fa-lg"></i></a>
-                        <a href="#"><i class="fab fa-youtube-square fa-lg"></i></a>
-                        <a href="#"><i class="fab fa-instagram-square fa-lg"></i></a>
-                        <ul id="list-inline">
-                            <li class="list-inline-item"><a href="#">Terms & Conditions</a></li>
-                            <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
-                        </ul>
+                    <div class="row my-2" id="social">
+                        <div class="col-sm-8 pt-2">
+                            <a href="#"><i class="fab fa-facebook-square fa-lg mx-2"></i></a>
+                            <a href="#"><i class="fab fa-twitter fa-lg mx-2"></i></a>
+                            <a href="#"><i class="fab fa-youtube fa-lg mx-2"></i></a>
+                        </div>
+                        <div class="col-sm-4 pt-2">
+                            <ul id="list-inline">
+                                <li class="list-inline-item mx-3"><a href="#">Terms & Conditions</a></li>
+                                <li class="list-inline-item mx-3"><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
 
         </div>
-        <script>
-            function openItem(item) {
-                var i;
-                var x = document.getElementsByClassName("item");
-                for (i = 0; i < x.length; i++) {
-                    x[i].style.display = "none";
-                }
-                document.getElementById(item).style.display = "block";
-
-                // var y = document.getElementById('tab-' + item);
-                // y.style.backgroundColor = '#ffffff';
-                // y.style.borderRadius = '4px';
-                // y.style.boxShadow = '0px 1px 1px rgba(0, 0, 0, 0.25)';
-                // y.style.color = '#EF3E42';
-
-                // evt.currentTarget.className += " tab-active";
+    </div>
+    <script>
+        function openItem(item) {
+            var i;
+            var x = document.getElementsByClassName("item");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
             }
-        </script>
+            document.getElementById(item).style.display = "block";
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
