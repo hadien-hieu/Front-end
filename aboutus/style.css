@@ -325,3 +325,7 @@
   align-items: center;
   color: #818181;
 }
+
+#list-inline {
+  float: right;
+}
